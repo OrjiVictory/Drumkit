@@ -1,10 +1,3 @@
-// document.querySelector(".drum").addEventListener("click", eventCodes);
-
-// function eventCodes(){
-//    alert("boom boom tam tam"); 
-// }
-
-
 var numberofDrumButtons = document.querySelectorAll(".drum").length;
 console.log(numberofDrumButtons);
 
@@ -69,12 +62,6 @@ function eventCodes(){
 
       
    }
-
-   // var audio = new Audio("sounds/tom-1.mp3");  //creating the  Audio method
-   // audio.play();
-
-   //"this" is used to get the identity of the event listener 
-   // this.style.color = "white";
 }
 }
 
